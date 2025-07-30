@@ -1,0 +1,122 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* Primary Colors */
+    --color-primary-100: #e7c7c4;
+    --color-primary-200: #d6a8a4;
+    --color-primary-300: #b96d64;
+    --color-primary-400: #a33f34;
+    --color-primary-500: #850b06;
+    --color-primary-600: #5e0000;
+    --color-primary-700: #3c0000;
+    --color-primary-800: #1e0000;
+
+    /* Neutral & Secondary */
+    --color-neutral-100: #f1f0f0;
+    --color-neutral-200: #e0dfdf;
+    --color-neutral-300: #cfcfcf;
+    --color-neutral-400: #bebebe;
+    --color-neutral-500: #adadad;
+    --color-neutral-600: #999999;
+    --color-neutral-700: #7f7f7f;
+    --color-neutral-800: #656565;
+    --color-neutral-900: #4c4c4c;
+    --color-neutral-1000: #323232;
+    --color-neutral-1100: #191919;
+
+    /* Error */
+    --color-error-100: #fceaea;
+    --color-error-200: #f9d1d1;
+    --color-error-300: #f49d9d;
+    --color-error-400: #ee6666;
+    --color-error-500: #e53935;
+    --color-error-600: #ab1313;
+    --color-error-700: #660000;
+    --color-error-800: #3c0000;
+
+  /* Warning */
+  --color-warning-100: #fff5d9;
+  --color-warning-200: #ffe9a8;
+  --color-warning-300: #ffd666;
+  --color-warning-400: #ffc42b;
+  --color-warning-500: #ffb300;
+  --color-warning-600: #b87e00;
+  --color-warning-700: #7e5700;
+  --color-warning-800: #4c3600;
+
+  /* Success */
+  --color-success-100: #e4f3ea;
+  --color-success-200: #c2e3cd;
+  --color-success-300: #9bd0a8;
+  --color-success-400: #68b57c;
+  --color-success-500: #399c54;
+  --color-success-600: #27773f;
+  --color-success-700: #175429;
+  --color-success-800: #0a3317;
+}
+
+
+/* PRIMARY TEXT COLORS */
+.text-primary-100 { color: var(--primary-100); }
+.text-primary-200 { color: var(--primary-200); }
+.text-primary-300 { color: var(--primary-300); }
+.text-primary-400 { color: var(--primary-400); }
+.text-primary-500 { color: var(--primary-500); }
+.text-primary-600 { color: var(--primary-600); }
+.text-primary-700 { color: var(--primary-700); }
+.text-primary-800 { color: var(--primary-800); }
+
+/* NEUTRAL & SECONDARY TEXT COLORS */
+.text-neutral-100 { color: var(--neutral-100); }
+.text-neutral-200 { color: var(--neutral-200); }
+.text-neutral-300 { color: var(--neutral-300); }
+.text-neutral-400 { color: var(--neutral-400); }
+.text-neutral-500 { color: var(--neutral-500); }
+.text-neutral-600 { color: var(--neutral-600); }
+.text-neutral-700 { color: var(--neutral-700); }
+.text-neutral-800 { color: var(--neutral-800); }
+.text-neutral-900 { color: var(--neutral-900); }
+.text-neutral-1000 { color: var(--neutral-1000); }
+.text-neutral-1100 { color: var(--neutral-1100); }
+
+/* ERROR TEXT COLORS */
+.text-error-100 { color: var(--error-100); }
+.text-error-200 { color: var(--error-200); }
+.text-error-300 { color: var(--error-300); }
+.text-error-400 { color: var(--error-400); }
+.text-error-500 { color: var(--error-500); }
+.text-error-600 { color: var(--error-600); }
+.text-error-700 { color: var(--error-700); }
+.text-error-800 { color: var(--error-800); }
+
+/* WARNING TEXT COLORS */
+.text-warning-100 { color: var(--warning-100); }
+.text-warning-200 { color: var(--warning-200); }
+.text-warning-300 { color: var(--warning-300); }
+.text-warning-400 { color: var(--warning-400); }
+.text-warning-500 { color: var(--warning-500); }
+.text-warning-600 { color: var(--warning-600); }
+.text-warning-700 { color: var(--warning-700); }
+.text-warning-800 { color: var(--warning-800); }
+
+/* SUCCESS TEXT COLORS */
+.text-success-100 { color: var(--success-100); }
+.text-success-200 { color: var(--success-200); }
+.text-success-300 { color: var(--success-300); }
+.text-success-400 { color: var(--success-400); }
+.text-success-500 { color: var(--success-500); }
+.text-success-600 { color: var(--success-600); }
+.text-success-700 { color: var(--success-700); }
+.text-success-800 { color: var(--success-800); }
+
+.h-6 {
+    height: calc(var(--spacing) * 6);
+  }
