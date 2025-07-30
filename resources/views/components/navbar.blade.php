@@ -9,7 +9,7 @@
         </div>
 
         <!-- Nav Links -->
-        <div class="flex space-x-10 text-lg font-regular">
+        <div class="flex space-x-10 text-lg font-regular justify-between">
             <a href="#" class="hover:text-primary-500">Events</a>
 
             <div class="relative group">
