@@ -1,4 +1,4 @@
-<nav class="bg-neutral-100 text-neutral-900 shadow-md sticky top-0 z-20">
+<nav class="bg-white text-neutral-900 shadow-md sticky top-0 z-20">
     <div class="w-fill h-auto flex justify-center items-center bg-neutral-950 text-white font-light">
         Text here if needed
     </div>
@@ -26,7 +26,7 @@
   <!-- Dropdown: must be inside the same parent .group -->
         <div class="absolute left-0 mt-2 w-40 bg-white shadow-lg rounded-md z-50 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition duration-200">
             <a href="/about" class="block px-4 py-2 text-regular text-gray-700 hover:bg-gray-100">Mission</a>
-            <a href="#" class="block px-4 py-2 text-regular text-gray-700 hover:bg-gray-100">Team</a>
+            <a href="/teams" class="block px-4 py-2 text-regular text-gray-700 hover:bg-gray-100">Team</a>
         </div>
         </div>
 
@@ -41,8 +41,6 @@
         <div class="flex space-x-2">
             <x-secondarybutton href="#" text="Login" />
             <x-button href="#" text="Signup" />
-            {{-- <a href="#" class="h-[48px] flex items-center font-regular justify-center  text-red-800 hover:text-primary-400 border border-primary-500 hover:border-primary-400 px-5 py-2 rounded-md bg-primary-500/20 hover:bg-primary-400/20 transition">Login</a>
-            <a href="#" class="h-[48px] flex items-center font-regular justify-center  bg-primary-500 text-white px-5 py-2 rounded-md hover:bg-primary-600 transition">Signup</a> --}}
         </div>
     </div>
 </nav>
