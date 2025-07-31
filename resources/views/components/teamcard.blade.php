@@ -1,7 +1,7 @@
 <div class="max-w-sm rounded-2xl overflow-hidden shadow-lg border border-gray-200 bg-white">
   <!-- Image Container with badge -->
   <div class="relative">
-    <img class="w-full h-80 object-cover" src="{{ asset('img/teams/photo.png') }}" alt="Narayan Duwal" />
+    <img class="w-full h-60 object-cover" src="{{ asset('img/teams/photo.png') }}" alt="Narayan Duwal" />
     <span class="absolute top-4 left-4 bg-red-700 text-white text-sm px-4 py-1 rounded-md font-medium shadow">
       Life member
     </span>

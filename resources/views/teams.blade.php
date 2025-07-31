@@ -4,7 +4,7 @@
 <x-navbar />
 <x-banner :title="'Team Members – Meet the Hearts Behind Newah'" :text="'Meet the people who make Newah possible.'" />
 
-<div class="lg:mx-[120px] md:mx-[80px] mx-[60px] my-20 flex flex-col justify-center items-center gap-2 m-4">
+<div class="lg:mx-[120px] md:mx-[80px] mx-[60px] my-12 flex flex-col justify-center items-center gap-2 m-4">
     {{-- <div class="flex flex-col justify-center items-center">
         <h2 class="text-2xl text-red-900 font-semibold mb-[4px]">Meet our Team</h2>
         <p class="text-base text-center text-gray-800 font-regular leading-relaxed">
@@ -13,7 +13,7 @@
     </div> --}}
     <div class="w-full flex flex-wrap items-center justify-between px-2 py-4">
   <!-- Title -->
-  <h2 class="text-2xl font-bold text-red-800">Members</h2>
+  <h2 class="text-2xl font-semibold text-red-800">Members</h2>
 
   <!-- Filters -->
   <div class="flex flex-wrap items-center gap-4">
@@ -49,5 +49,6 @@
        <x-teamcard />   
    </div>
 </div>
+<x-banner2 :title="'How You Can Get Involved ?'" :text="'Everyone has something to offer. Whether it’s time, knowledge, funds, or energy your contribution makes a real impact.'" :secondary_text="'Volunteer'" :primary_text="'Donate Now'" />
 
 <x-footer />
