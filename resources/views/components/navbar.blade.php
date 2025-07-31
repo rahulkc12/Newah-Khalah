@@ -5,26 +5,31 @@
     <div class=" mx-[72px] flex items-center justify-between ">
         <!-- Logo -->
         <div class="flex items-center space-x-4">
-            <img src="{{ asset('img/image.png') }}" alt="Newah_kalah_logo" class="h-[114px] w-auto" />
+            <a href="/">
+                <img src="{{ asset('img/image.png') }}" alt="Newah_kalah_logo" class="h-[114px] w-auto" />
+            </a>
         </div>
 
         <!-- Nav Links -->
         <div class="flex space-x-10 text-lg font-regular justify-between">
-            <a href="#" class="hover:text-primary-500">Events</a>
+            <a href="/events" class="hover:text-primary-500">Events</a>
 
-            <div class="relative group">
-                <button class="hover:text-primary-500 flex items-center">
-                    About us
-                    <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </button>
-                <!-- Dropdown -->
-                <div class="absolute hidden group-hover:block bg-white mt-2 shadow-lg rounded-md z-50">
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Mission</a>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Team</a>
-                </div>
-            </div>
+        <div class="relative group">
+  <!-- Button -->
+        <button class="hover:text-primary-500 flex items-center">
+            About us
+            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+        </button>
+
+  <!-- Dropdown: must be inside the same parent .group -->
+        <div class="absolute left-0 mt-2 w-40 bg-white shadow-lg rounded-md z-50 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition duration-200">
+            <a href="/about" class="block px-4 py-2 text-regular text-gray-700 hover:bg-gray-100">Mission</a>
+            <a href="#" class="block px-4 py-2 text-regular text-gray-700 hover:bg-gray-100">Team</a>
+        </div>
+        </div>
+
 
             <a href="#" class="hover:text-primary-500">Gallery</a>
             <a href="#" class="hover:text-primary-500">Donate</a>
