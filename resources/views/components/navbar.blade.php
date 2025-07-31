@@ -31,7 +31,7 @@
         </div>
 
 
-            <a href="#" class="hover:text-primary-500">Gallery</a>
+            <a href="/gallery" class="hover:text-primary-500">Gallery</a>
             <a href="#" class="hover:text-primary-500">Donate</a>
             <a href="#" class="hover:text-primary-500">Get Involved</a>
             <a href="#" class="hover:text-primary-500">Contact Us</a>
