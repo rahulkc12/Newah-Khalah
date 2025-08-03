@@ -4,7 +4,7 @@
 <x-navbar />
 <x-banner :title="'Team Members – Meet the Hearts Behind Newah'" :text="'Meet the people who make Newah possible.'" />
 
-<div class="lg:mx-[120px] md:mx-[80px] mx-[60px] my-12 flex flex-col justify-center items-center gap-2 m-4">
+<div class="lg:mx-[120px] md:mx-[80px] sm:mx-[40px] my-12 flex flex-col justify-center items-center gap-2 m-4">
     {{-- <div class="flex flex-col justify-center items-center">
         <h2 class="text-2xl text-red-900 font-semibold mb-[4px]">Meet our Team</h2>
         <p class="text-base text-center text-gray-800 font-regular leading-relaxed">
@@ -20,7 +20,7 @@
     <!-- Tenure Dropdown -->
     <div class="flex items-center space-x-2">
       <span class="text-black font-medium">Tenure:</span>
-      <select class="rounded-md px-4 py-2 border border-gray-300 bg-neutral-50 text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-500">
+      <select class="h-[45px] rounded-md px-4 py-2 border border-gray-300 bg-neutral-50 text-gray-500 focus:outline-none focus:ring-2 focus:ring-red-500">
         <option>2023-2025</option>
         <option>2021-2023</option>
         <option>2019-2021</option>
@@ -30,7 +30,7 @@
     <!-- Group By Dropdown -->
     <div class="flex items-center space-x-2">
       <span class="text-black font-medium">Group By:</span>
-      <select class="rounded-md px-4 py-2 border border-gray-300 bg-neutral-50 text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-500">
+      <select class="h-[45px] rounded-md px-4 py-2 border border-gray-300 bg-neutral-50 text-gray-500 focus:outline-none focus:ring-2 focus:ring-red-500">
         <option>All</option>
         <option>Executive</option>
         <option>General</option>

@@ -3,9 +3,9 @@
 
 <x-navbar />
 <x-banner :title="'About Us - Newah Khalah'" :text="'A united and empowered Newar diaspora'"/>
-<div class="lg:mx-[120px] md:mx-[80px] mx-[60px] my-20">
+<div class="lg:mx-[120px] md:mx-[80px] sm:mx-[40px] my-20">
     <div class="grid grid-cols-2 gap-8">
-        <img src="img/women.png" alt="newar_women" class="w-full rounded-sm h-auto">
+        <img src="img/vision.png" alt="newar_women" class="w-full rounded-sm h-auto">
         <div class="mt-4 space-y-8 flex justify-center items-center flex-col">
             <h2 class="text-2xl text-red-900 font-semibold mb-4">Our Vision</h2>
             <p class="text-base text-center text-gray-800 font-regular leading-relaxed">
@@ -20,10 +20,10 @@
              Colorado Newah Khalah is here to keep Newari culture alive and thriving in Colorado. We bring generations together to celebrate our festivals, food, language, and traditions and we welcome everyone to join in. Through events, education, and community connections, we aim to share the richness of our heritage while building understanding and unity across cultures.
             </p>
         </div>
-        <img src="img/women.png" alt="newar_women" class="w-full rounded-sm h-auto">
+        <img src="img/mission.png" alt="newar_women" class="w-full rounded-sm h-auto">
         </div>
 </div>
-<div class="lg:mx-[120px] md:mx-[80px] mx-[60px] my-20 flex flex-col justify-center items-center gap-8 m-8">
+<div class="lg:mx-[120px] md:mx-[80px] sm:mx-[40px] my-20 flex flex-col justify-center items-center gap-8 m-8">
 <div class=" flex flex-col justify-center items-center">
         <h2 class="text-2xl text-red-900 font-semibold mb-[4px]">What We Do</h2>
         <p class="text-base text-center text-gray-800 font-regular leading-relaxed">
