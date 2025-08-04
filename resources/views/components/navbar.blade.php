@@ -33,8 +33,8 @@
 
             <a href="/gallery" class="hover:text-primary-500">Gallery</a>
             <a href="/donate" class="hover:text-primary-500">Donate</a>
-            <a href="#" class="hover:text-primary-500">Get Involved</a>
-            <a href="#" class="hover:text-primary-500">Resources</a>
+            <a href="/getinvolved" class="hover:text-primary-500">Get Involved</a>
+            <a href="/news" class="hover:text-primary-500">Resources</a>
             <a href="/contact" class="hover:text-primary-500">Contact Us</a>
         </div>
 

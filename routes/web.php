@@ -12,3 +12,5 @@ Route::view('/teams', 'teams');
 Route::view('/gallery', 'gallery');
 Route::view('/donate', 'donate');
 Route::view('/contact', 'contact');
+Route::view('/getinvolved', 'getinvolved');
+Route::view('/news', 'news');
