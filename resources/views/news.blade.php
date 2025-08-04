@@ -23,13 +23,12 @@
   </div>
 </div>
 <div class="w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-       <x-gallerycard />
-       <x-gallerycard />
-       <x-gallerycard />
-        <x-gallerycard />
-        <x-gallerycard />
-        <x-gallerycard />
-   </div>
-    <x-button :text="'View More'" class="w-[440px] mt-4" />
-   </div>
+
+   <x-newscard />
+   <x-newscard />
+   <x-newscard /> 
+  <x-newscard />
+</div>
+</div>
+<x-banner2 :title="'Not sure where to start? '" :text="'We’ll help you choose.'" :primary_text="'Contact Us'" :secondary_text="'Learn more'" />
 <x-footer />

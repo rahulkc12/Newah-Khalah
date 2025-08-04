@@ -12,7 +12,7 @@
         </div>
         <!-- Add more cards as needed -->
 </div>
-<div class="lg:mx-[120px] md:mx-[80px] mx-[60px] my-20">
+<div class="lg:mx-[120px] md:mx-[80px] sm:mx-[40px] my-20">
     <div class="grid lg:grid-cols-2  md:grid-cols-2 xs:grid-cols-1 gap-8">
         <img src="img/women.png" alt="newar_women" class="w-full rounded-sm h-auto">
         <div class="mt-4 space-y-8 flex justify-center items-center flex-col">
@@ -77,7 +77,7 @@
 </div>
 
 </div>
-<div class="lg:mx-[120px] md:mx-[80px] mx-[60px]my-20 flex flex-col justify-center items-center gap-8">
+<div class="lg:mx-[120px] md:mx-[80px] sm:mx-[40px] my-20 flex flex-col justify-center items-center gap-8">
     <div class="mt-8 flex flex-col justify-center items-center">
         <h2 class="text-2xl text-red-900 font-semibold mb-[4px]">Moments That Matter</h2>
         <p class="text-base text-center text-gray-800 font-regular leading-relaxed">
@@ -115,16 +115,16 @@ Every dollar goes toward cultural education, event organization, and outreach.</
     </div>
     <div class="space-y-4 max-w-2xl mx-auto">
         <div class="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
-            <div class="w-full">
+            <div class="w-full space-y-1">
                 <p class="text-md font-regular text-gray-800">First Name</p>
                 <input type="text" placeholder="Enter your first name" class="w-full text-lg text-gray-500 border border-gray-400 rounded-lg px-4 py-2">
             </div>
-            <div class="w-full">
+            <div class="w-full space-y-1">
                 <p class="text-md font-regular text-gray-800">Last Name</p>
                 <input type="text" placeholder="Enter your last name" class="w-full text-lg text-gray-500 border border-gray-400 rounded-lg px-4 py-2">
             </div>
         </div>
-        <div>
+        <div class="w-full space-y-1">
             <p class="text-md font-regular text-gray-800">Email</p>
             <input type="email" placeholder="Enter your email" class="w-full text-lg text-gray-500 border border-gray-400 rounded-lg px-4 py-2">
         </div>
