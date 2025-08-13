@@ -16,7 +16,7 @@
     <div class="grid lg:grid-cols-2  md:grid-cols-2 xs:grid-cols-1 gap-8">
         <img src="img/women.png" alt="newar_women" class="w-full rounded-sm h-auto">
         <div class="mt-4 space-y-8 flex justify-center items-center flex-col">
-            <h2 class="text-2xl text-red-900 font-semibold mb-4 md:text-black">About Newah Khalah</h2>
+            <h2 class="text-2xl text-red-900 font-semibold mb-4">About Newah Khalah</h2>
             <p class="text-base text-center text-gray-800 font-regular leading-relaxed">
                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
