@@ -1,4 +1,4 @@
-<div style="background-image:linear-gradient(to bottom, rgba(255, 255, 2550, 0), rgba(0, 0, 0, 0.8)), url('img/kumari.png');" class="max-w-[712px] shadow-md rounded-lg p-[38px] pt-[156px]">
+<div style="background-image:linear-gradient(to bottom, rgba(255, 255, 2550, 0), rgba(0, 0, 0, 0.8)), url('img/kumari.png');" class="max-w-[712px] shadow-md rounded-lg p-[38px] pt-[156px] hover-scale">
     {{-- <h2 class="text-xl font-semibold mb-4">Upcoming Events</h2> --}}
     <div class="space-y-4">
         <div class="border-b pb-4 space-y-6">

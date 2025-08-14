@@ -1,4 +1,4 @@
-<div class="max-w-sm rounded-2xl overflow-hidden shadow-lg border border-gray-200 bg-white p-4 space-y-4">
+<div class="max-w-sm rounded-2xl overflow-hidden shadow-lg border border-gray-200 bg-white p-4 space-y-4 hover-scale">
     <div class="h-[240px] bg-cover bg-center rounded-md"
          style="background-image: url('{{ asset('img/kumari.png') }}');">
         <!-- Image will be here --></div>

@@ -120,3 +120,91 @@
 .h-6 {
     height: calc(var(--spacing) * 6);
   }
+/* Fade-in and slide-up animation */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in-up {
+    opacity: 0;
+    animation: fadeInUp 0.7s ease-out forwards;
+}
+
+.animate-fade-in-up-delay-200 {
+    opacity: 0;
+    animation: fadeInUp 0.7s ease-out 0.2s forwards;
+}
+
+.animate-fade-in-up-delay-400 {
+    opacity: 0;
+    animation: fadeInUp 0.7s ease-out 0.4s forwards;
+}
+
+/* Hover scale animation */
+@keyframes hoverScale {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    100% {
+        transform: scale(1.03);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.hover-scale {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-scale:hover {
+    animation: hoverScale 0.3s ease forwards;
+}
+
+/* Hover animation for buttons */
+@keyframes hoverButton {
+    0% {
+        transform: scale(1);
+        background-color: initial;
+    }
+    100% {
+        transform: scale(1.03);
+        background-color: #7f1d1d; /* Matches red-900 */
+        color: #ffffff;
+    }
+}
+
+.hover-button {
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.hover-button:hover {
+    animation: hoverButton 0.3s ease forwards;
+}
+
+/* Hover animation for input fields */
+@keyframes hoverInput {
+    0% {
+        border-color: #d1d5db; /* Matches gray-400 */
+        box-shadow: none;
+    }
+    100% {
+        border-color: #7f1d1d; /* Matches red-900 */
+        box-shadow: 0 0 8px rgba(127, 29, 29, 0.3);
+    }
+}
+
+.hover-input {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-input:hover,
+.hover-input:focus {
+    animation: hoverInput 0.3s ease forwards;
+}

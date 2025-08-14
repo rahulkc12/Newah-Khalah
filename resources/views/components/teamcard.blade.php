@@ -1,4 +1,4 @@
-<div class="max-w-sm rounded-2xl overflow-hidden shadow-lg border border-gray-200 bg-white">
+<div class="max-w-sm rounded-2xl overflow-hidden shadow-lg border border-gray-200 bg-white hover-scale">
   <!-- Image Container with badge -->
   <div class="relative">
     <img class="w-full h-60 object-cover" src="{{ asset('img/teams/photo.png') }}" alt="Narayan Duwal" />

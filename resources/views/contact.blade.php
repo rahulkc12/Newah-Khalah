@@ -11,7 +11,7 @@
       <div class="relative rounded-xl overflow-hidden shadow-md">
         <iframe
           class="w-full h-64"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.001198734196!2d55.1372151!3d25.0775279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6c4d58f540b7%3A0x6ecbfaecbe9f7a02!2sDubai%20Marina%20Mall!5e0!3m2!1sen!2sae!4v1691433852307!5m2!1sen!2sae"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1403.701317852655!2d-73.83301581813838!3d40.76220097085758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600feab8eaf3%3A0xf2c8bcc288c78f3!2s123%20Main%20St%2C%20Queens%2C%20NY%2010001%2C%20USA!5e0!3m2!1sen!2snp!4v1755162203325!5m2!1sen!2snp"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
