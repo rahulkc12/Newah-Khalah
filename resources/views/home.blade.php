@@ -16,7 +16,7 @@
     <div class="grid lg:grid-cols-2  md:grid-cols-2 xs:grid-cols-1 gap-8">
         <img src="img/women.png" alt="newar_women" class="w-full rounded-sm h-auto">
         <div class="mt-4 space-y-8 flex justify-center items-center flex-col">
-            <h2 class="text-2xl text-red-900 font-semibold mb-4 md:text-black">About Newah Khalah</h2>
+            <h2 class="text-2xl text-red-900 font-semibold mb-4">About Newah Khalah</h2>
             <p class="text-base text-center text-gray-800 font-regular leading-relaxed">
                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
@@ -25,7 +25,7 @@
         </div>
     </div>
 </div>
-<div class="mx-[40px] my-20">
+<div class=" my-20">
     <div class="my-8 flex flex-col justify-center items-center">
         <h2 class="text-2xl text-red-900 font-semibold mb-[4px]">Upcoming Events</h2>
         <p class="text-base text-center text-gray-800 font-regular leading-relaxed">
@@ -38,7 +38,7 @@
     <x-eventscard />
     </div> --}}
 
-<div x-data="{ activeIndex: 0, cards: [0, 1, 2] }" class="relative w-full overflow-hidden grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+<div x-data="{ activeIndex: 0, cards: [0, 1] }" class="relative w-full h-auto overflow-hidden grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
     <!-- Wrapper -->
     <div class="flex transition-transform duration-500 ease-in-out"
          :style="'transform: translateX(-' + (activeIndex * 100) + '%)'"
@@ -86,11 +86,11 @@
 
     </div>
     <div class="w-full flex flex-wrap items-center gap-x-4 gap-y-4">
-        <div class="h-60 flex-1/4 rounded-2xl bg-blue-400 flex justify-center items-center text-amber-50">06</div>
-        <div class="h-60 flex-1/4 rounded-2xl bg-blue-400 flex justify-center items-center text-amber-50">07</div>
-        <div class="h-60 flex-1/4 rounded-2xl bg-blue-400 flex justify-center items-center text-amber-50">08</div>
-        <div class="h-60 flex-1/4 rounded-2xl bg-blue-400 flex justify-center items-center text-amber-50">09</div>
-        <div class="h-60 flex-1/4 rounded-2xl bg-blue-400 flex justify-center items-center text-amber-50">10</div>
+        <div class="h-68 flex-1/4 rounded-2xl flex justify-center items-center hover-scale"><img src="img/gallery/i1.png" class="w-full h-full object-cover rounded-2xl" alt=""></div>
+        <div class="h-68 flex-1/4 rounded-2xl flex justify-center items-center hover-scale"><img src="img/gallery/i2.png" class="w-full h-full object-cover rounded-2xl" alt=""></div>
+        <div class="h-68 flex-1/4 rounded-2xl flex justify-center items-center hover-scale"><img src="img/gallery/i3.png" class="w-full h-full object-cover rounded-2xl" alt=""></div>
+        <div class="h-68 flex-1/4 rounded-2xl flex justify-center items-center hover-scale"><img src="img/gallery/i4.png" class="w-full h-full object-cover rounded-2xl" alt=""></div>
+        <div class="h-68 flex-1/4 rounded-2xl flex justify-center items-center hover-scale"><img src="img/gallery/i5.png" class="w-full h-full object-cover rounded-2xl" alt=""></div>
     </div>
 
     <x-secondarybutton href="#" text="View More" class="w-[388px]"/>

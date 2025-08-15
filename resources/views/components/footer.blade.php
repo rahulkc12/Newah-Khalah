@@ -1,27 +1,27 @@
-<footer class="bg-black text-white py-2">
-  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 border-b border-gray-600 pt-10 pb-10">
+<footer class="bg-black text-white py-2 lg:px-[120px] md:px-[80px] sm:px-[40px]">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 border-b border-gray-600 pt-10 pb-10">
     
     <!-- Logo & Description -->
-    <div class="space-y-6">
-      <img src="{{ asset('img/image.png') }}" alt="Newah_khalah_logo" class="h-28 w-auto">
+    <div class="space-y-6 ">
+      <img src="{{ asset('img/image.png') }}" alt="Newah_khalah_logo" class="h-28 md:h-32 w-auto">
       <p class="text-base font-regular leading-relaxed">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
-      <div class="flex space-x-2">
-           <x-secondarybutton href="#" text="Login" />
-            <x-button href="#" text="Signup" />
-        </div>
+      <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
+        <x-secondarybutton href="#" text="Login" />
+        <x-button href="#" text="Signup" />
+      </div>
     </div>
 
     <!-- Quick Links -->
     <div class="space-y-3 md:pl-10">
-      <h2 class="text-lg font-medium ">Quick Links</h2>
+      <h2 class="text-lg font-medium">Quick Links</h2>
       <ul class="space-y-2 text-base">
-        <li><a href="#" class="hover:text-primary-500 font-regular">About Us</a></li>
-        <li><a href="#" class="hover:text-primary-500 font-regular">Events</a></li>
-        <li><a href="#" class="hover:text-primary-500 font-regular">Get Involved</a></li>
-        <li><a href="#" class="hover:text-primary-500 font-regular">Donate</a></li>
-        <li><a href="#" class="hover:text-primary-500 font-regular">Gallery</a></li>
+        <li><a href="/about" class="hover:text-primary-500 font-regular">About Us</a></li>
+        <li><a href="/events" class="hover:text-primary-500 font-regular">Events</a></li>
+        <li><a href="/getinvolved" class="hover:text-primary-500 font-regular">Get Involved</a></li>
+        <li><a href="/donate" class="hover:text-primary-500 font-regular">Donate</a></li>
+        <li><a href="/gallery" class="hover:text-primary-500 font-regular">Gallery</a></li>
       </ul>
     </div>
 
@@ -35,7 +35,6 @@
             <path d="M7.66675 8H13.6667" stroke="#FCF8F7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M3.66669 20.2895V5C3.66669 3.89543 4.56212 3 5.66669 3H19.6667C20.7713 3 21.6667 3.89543 21.6667 5V15C21.6667 16.1046 20.7713 17 19.6667 17H8.62794C8.02037 17 7.44575 17.2762 7.0662 17.7506L4.73521 20.6643C4.3809 21.1072 3.66669 20.8567 3.66669 20.2895Z" stroke="#FCF8F7" stroke-width="1.5"/>
           </svg>
-
           <span>kenz.lawson@example.com</span>
         </div>
         <div class="flex items-center space-x-2">
@@ -48,17 +47,17 @@
             <rect width="20" height="20" fill="white" transform="translate(0.666687 0.5)"/>
             </clipPath>
             </defs>
-        </svg>
-        <span>(225) 555-0118</span>
+          </svg>
+          <span>(225) 555-0118</span>
         </div>
       </div>
       <div>
         <p class="mb-2 text-lg font-medium">Follow us</p>
         <div class="flex space-x-3">
-          <img src="img/fb.png" alt="Facebook" class="w-8 h-8">
-          <img src="img/insta.png" alt="Instagram" class="w-8 h-8">
-          <img src="img/twitter.png" alt="Twitter" class="w-8 h-8">
-          <img src="img/whatsapp.png" alt="WhatsApp" class="w-8 h-8">
+          <img src="{{ asset('img/fb.png') }}" alt="Facebook" class="w-8 h-8 md:w-10 md:h-10">
+          <img src="{{ asset('img/insta.png') }}" alt="Instagram" class="w-8 h-8 md:w-10 md:h-10">
+          <img src="{{ asset('img/twitter.png') }}" alt="Twitter" class="w-8 h-8 md:w-10 md:h-10">
+          <img src="{{ asset('img/whatsapp.png') }}" alt="WhatsApp" class="w-8 h-8 md:w-10 md:h-10">
         </div>
       </div>
     </div>
@@ -68,6 +67,6 @@
   <!-- Footer Bottom -->
   <div class="text-center text-sm text-gray-300 mt-1 h-6">
     Copyright © 2023 Newa Khala. All Rights Reserved.
-    <span class="block md:inline ">Powered By <a href="#" class="text-red-800">Delta-V Logics and Solutions</a></span>
+    <span class="block md:inline">Powered By <a href="#" class="text-red-800">Delta-V Logics and Solutions</a></span>
   </div>
 </footer>

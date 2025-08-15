@@ -8,7 +8,7 @@
 ])
 
 
-<div class="max-w-sm w-full bg-white border border-gray-200 p-[28px] rounded-md shadow-sm flex flex-col justify-between">
+<div class="max-w-sm w-full bg-white border border-gray-200 p-[28px] rounded-md shadow-sm flex flex-col justify-between hover-scale">
     <div class="space-y-8">
         <div>
             <h3 class="text-xl font-semibold">{{ $title }}</h3>
