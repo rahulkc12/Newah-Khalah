@@ -6,5 +6,5 @@
             <h2 class="text-xl font-semibold text-neutral-900">Yomari: More Than Dumpling</h2>
             <p class="text-gray-700 mt-2">Discover the deep spiritual symbolism of yomari in Newar culture. From harvest offerings to community storytelling, this treat speaks volumes. </p>
         </div>
-     <x-textbutton href="#" text="Read More" />
+     <x-textbutton href="/newspage" text="Read More" />
 </div>

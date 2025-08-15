@@ -1,3 +1,4 @@
+
 <div style="background-image:linear-gradient(to bottom, rgba(255, 255, 2550, 0), rgba(0, 0, 0, 0.8)), url('img/kumari.png');" class="max-w-[712px] shadow-md rounded-lg p-[38px] pt-[156px] hover-scale">
     {{-- <h2 class="text-xl font-semibold mb-4">Upcoming Events</h2> --}}
     <div class="space-y-4">
@@ -27,8 +28,8 @@
             
         </div>
             <div class="flex space-x-2">
-            <x-secondarybutton href="#" text="Learn More" class="flex-1/2"/>
-            <x-button href="#" text="Buy tickets" class="flex-1/2"/>
+            <x-secondarybutton href="/eventpage" text="Learn More" class="flex-1/2"/>
+            <x-button href="/eventpage" text="Buy tickets" class="flex-1/2"/>
             {{-- <a href="#" class=" h-[48px] flex items-center justify-center font-regular flex-1/2  text-red-800 hover:text-primary-400 border border-primary-500 hover:border-primary-400 px-5 py-2 rounded-md bg-primary-500/20 hover:bg-primary-400/20 transition">Learn More</a>
             <a href="#" class="h-[48px] flex items-center justify-center font-regular flex-1/2  bg-primary-500 text-white px-5 py-2 rounded-md hover:bg-primary-600 transition">Buy tickets</a> --}}
         </div>

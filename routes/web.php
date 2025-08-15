@@ -14,3 +14,5 @@ Route::view('/donate', 'donate');
 Route::view('/contact', 'contact');
 Route::view('/getinvolved', 'getinvolved');
 Route::view('/news', 'news');
+Route::view('/eventpage','eventpage');
+Route::view('/newspage','newspage');    
