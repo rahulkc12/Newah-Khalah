@@ -56,7 +56,7 @@ $cards = [
 ];
 @endphp
 
-<div class=" w-full justify-center grid lg:grid-cols-3 sm:grid-cols-1 gap-4">
+<div class=" w-full justify-center grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
     @foreach ($cards as $card)
         <x-membership-card 
             :title="$card['title']"
@@ -137,5 +137,5 @@ $cards = [
 </div>
 
 
-<x-banner2 :title="'Not sure where to start? '" :text="'We’ll help you choose.'" :primary_text="'Contact Us'" :secondary_text="'Learn more'" />
+<x-banner2 :title="'Not sure where to start? '" :text="'We’ll help you choose.'" :primary_text="'Contact Us'" :secondary_text="'Learn more'" :p_href="'/contact'" :s_href="'/about'" />
 <x-footer />

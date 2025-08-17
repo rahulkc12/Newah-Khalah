@@ -11,5 +11,5 @@
         <x-eventscard />
     </div>
 </div>
-<x-banner2 :title="'Want to perform, volunteer, or sponsor an event?'" :text="'Get involved and help make these celebrations even more special.'" :secondary_text="'Volunteer'" :primary_text="'Donate Now'" />
+<x-banner2 :title="'Want to perform, volunteer, or sponsor an event?'" :text="'Get involved and help make these celebrations even more special.'" :secondary_text="'Volunteer'" :primary_text="'Donate Now'" :s_href="'/getinvolved'" :p_href="'/donate'" />
 <x-footer />

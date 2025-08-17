@@ -7,8 +7,8 @@
     <h1 class="text-5xl text-white font-bold mb-6">"Welcome to Newah Khalah"</h1>
     <p class="text-2xl font-medium text-white mb-4">Preserving our heritage , Strengthening our community and  Celebrating together</p>
     <div class="flex space-x-2">
-        <x-secondarybutton href="#" text="View Upcoming Events"/>
-        <x-button href="#" text="Support Us"/>
+        <x-secondarybutton href="/events" text="View Upcoming Events"/>
+        <x-button href="/donate" text="Support Us"/>
         </div>
         <!-- Add more cards as needed -->
 </div>
@@ -20,7 +20,7 @@
             <p class="text-base text-center text-gray-800 font-regular leading-relaxed">
                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
-            <x-button href="#" text="Learn More" />
+            <x-button href="/about" text="Learn More" />
             
         </div>
     </div>
@@ -93,15 +93,15 @@
         <div class="h-68 flex-1/4 rounded-2xl flex justify-center items-center hover-scale"><img src="img/gallery/i5.png" class="w-full h-full object-cover rounded-2xl" alt=""></div>
     </div>
 
-    <x-secondarybutton href="#" text="View More" class="w-[388px]"/>
+    <x-secondarybutton href="/gallery" text="View More" class="w-[388px]"/>
 </div>
 <div style="background-image:linear-gradient(to left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.9)), url('img/lakhe.png');" class="mt-12 px-36 py-40 h-[518px] w-full bg-cover bg-center flex flex-col text-left">
     <h2 class="text-3xl text-left text-white font-bold mb-6">Join Us in Celebrating Our Heritage</h2>
     <p class="text-md w-[680px] text-white font-regular mb-8">Your donation helps us continue our mission to celebrate our culture, support our members, and host meaningful events.
 Every dollar goes toward cultural education, event organization, and outreach.</p>
     <div class="flex space-x-2">
-        <x-secondarybutton href="#" text="Become a Member"/>
-        <x-button href="#" text="Donate Now"/>
+        <x-secondarybutton href="/getinvolved" text="Become a Member"/>
+        <x-button href="/donate" text="Donate Now"/>
         </div>
 </div>
 <!-- Newsletter Section -->

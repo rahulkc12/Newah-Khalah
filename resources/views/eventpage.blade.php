@@ -5,7 +5,7 @@
 
     {{-- Breadcrumb --}}
     <div class="text-sm text-gray-600 flex flex-row mb-4 space-x-2">
-        <a href="/events" class="hover:underline flex flex-row"> <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <a href="/events" class="hover:underline flex flex-row space-x-2"> <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.8332 10.5H4.1665" stroke="#606060" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9.99984 16.3333L4.1665 10.5L9.99984 4.66667" stroke="#606060" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
@@ -186,8 +186,8 @@ Events</a> /
                 <h3 class="font-semibold flex justify-center items-center mb-4">Join Us</h3>
                 <p class="text-md flex justify-center items-center mb-3">Want to help make this event a success?</p>
                 <div class="flex gap-2">
-                    <x-secondarybutton href="#" text="Join as Volunteer"  class=" mt-2 w-full"/>
-                    <x-button href="#" text="Like to be Sponsor?" class=" mt-2 w-full " />
+                    <x-secondarybutton href="/getinvolved" text="Join as Volunteer"  class=" mt-2 w-full"/>
+                    <x-button href="/donate" text="Like to be Sponsor?" class=" mt-2 w-full " />
                 </div>
             </div>
         </div>

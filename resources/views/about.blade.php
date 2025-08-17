@@ -31,19 +31,19 @@
             </p>
 </div>
 <div class=" grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 justify-center items-center gap-6">
-    <div class="h-full bg-white border border-gray-200 drop-shadow-lg rounded-lg p-4 flex flex-col items-center">
+    <div class="h-full bg-white border border-gray-200 drop-shadow-lg rounded-lg p-4 flex flex-col items-center hover-scale">
         <h3 class="text-lg text-centerfont-semibold mb-2"> Cultural Events & Festivals</h3>
         <p class="text-md text-gray-800 text-center">Hosting traditimonal events like Yomari Punhi, Samuhik Bratabandha, Teej, and Nepal Sambat celebrations.</p>
     </div>
-    <div class="h-full bg-white border border-gray-200 drop-shadow-lg rounded-lg p-4 flex flex-col items-center">
+    <div class="h-full bg-white border border-gray-200 drop-shadow-lg rounded-lg p-4 flex flex-col items-center hover-scale">
         <h3 class="text-lg text-center font-semibold mb-2"> Social Support & Networking</h3>
         <p class="text-md text-gray-800 text-center">Creating safe spaces for Newars  to connect, collaborate, and care for one another.</p>
     </div>
-    <div class="h-full bg-white border border-gray-200 drop-shadow-lg rounded-lg p-4 flex flex-col items-center">
+    <div class="h-full bg-white border border-gray-200 drop-shadow-lg rounded-lg p-4 flex flex-col items-center hover-scale">
         <h3 class="text-lg text-center font-semibold mb-2"> Youth Engagement</h3>
         <p class="text-md text-gray-800 text-center">Organizing language classes, cultural dance training, storytelling, and mentorship for younger generations.</p>
     </div>
-    <div class="h-full bg-white border border-gray-200 drop-shadow-lg rounded-lg p-4 flex flex-col items-center">
+    <div class="h-full bg-white border border-gray-200 drop-shadow-lg rounded-lg p-4 flex flex-col items-center hover-scale">
         <h3 class="text-lg text-center font-semibold mb-2"> Cultural Education </h3>
         <p class="text-md text-gray-800 text-center">Preserving oral history, language (Nepal Bhasa), music, and art through curated content, workshops, and shared experiences.</p>
     </div>

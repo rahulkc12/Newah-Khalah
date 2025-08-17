@@ -30,5 +30,5 @@
   <x-newscard />
 </div>
 </div>
-<x-banner2 :title="'Not sure where to start? '" :text="'We’ll help you choose.'" :primary_text="'Contact Us'" :secondary_text="'Learn more'" />
+<x-banner2 :title="'Not sure where to start? '" :text="'We’ll help you choose.'" :primary_text="'Contact Us'" :secondary_text="'Learn more'" :p_href="'/contact'" :s_href="'/about'" />
 <x-footer />
