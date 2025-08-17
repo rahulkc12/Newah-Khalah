@@ -3,9 +3,9 @@
 
 <x-navbar />
 <x-banner :title="'Donate - Newah Khalah'" :text="'Preserve Culture. Empower Community. Give with Heart.'"/>
-<div class="lg:mx-[120px] md:mx-[80px] sm:mx-[40px] m-20 grid lg:grid-cols-2 sm:grid-cols-1 gap-8">
+<div class="mx-4 sm:mx-[20px] md:mx-[40px] lg:mx-[120px] my-8 grid grid-cols-1 lg:grid-cols-2 gap-8">
     <div class="flex flex-col gap-4">
-        <img src="img/donate.png" alt="Donate">
+<img src="img/donate.png" alt="Donate" class="w-full h-auto rounded-md object-cover">
         <div>
         <h2 class="text-2xl text-red-800 font-semibold my-2">Why Your Donation Matters</h2>
         <p class="text-gray-700 mb-2">Your contribution helps us bring the warmth, beauty, and depth of Newar culture to life right here in the USA.</p>
@@ -44,7 +44,7 @@
     </div>
 
 
-<div class="max-w-xl mx-auto bg-white border border-gray-200 p-[32px] rounded-md shadow-md space-y-6 font-sans">
+<div class="w-full max-w-xl mx-auto bg-white border border-gray-200 p-4 sm:p-8 rounded-md shadow-md space-y-6 font-sans">
   <h2 class="text-2xl font-semibold text-center">Donate</h2>
 
   <!-- Frequency Tabs -->
@@ -55,7 +55,7 @@
   </div>
 
   <!-- Amount Options -->
-  <div class="grid grid-cols-4 gap-3">
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
     <button class="w-full text-lg text-gray-500 border border-gray-400 rounded-lg px-4 py-2 hover:text-primary-500 hover:border-red-800">$25</button>
     <button class="w-full text-lg text-gray-500 border border-gray-400 rounded-lg px-4 py-2 hover:text-primary-500 hover:border-red-800">$50</button>
     <button class="w-full text-lg text-gray-500 border border-gray-400 rounded-lg px-4 py-2 hover:text-primary-500 hover:border-red-800">$75</button>
@@ -63,13 +63,13 @@
   </div>
 
   <!-- Currency + Other Amount -->
-  <div class="flex">
-    <select class="w-1/6 border text-lg border-gray-400 text-gray-500 rounded-l-lg border-r-lg px-3 py-2 bg-white">
+  <div class="flex flex-col sm:flex-row ">
+    <select class="sm:w-1/6 w-full border text-lg border-gray-400 text-gray-500 rounded-l-lg border-r-lg px-3 py-2 bg-white">
       <option>USD</option>
       <option>EUR</option>
       <option>NPR</option>
     </select>
-    <input type="text" placeholder="$ Other" class="w-5/6 border text-lg text-gray-500 rounded-r-lg border-gray-400 px-3 py-2" />
+    <input type="text" placeholder="$ Other" class="sm:w-5/6 w-full border text-lg text-gray-500 rounded-r-lg border-gray-400 px-3 py-2" />
   </div>
 
   <!-- Honor Checkbox -->
@@ -82,10 +82,10 @@
   <h3 class="text-lg font-semibold text-center pt-2">Your Information</h3>
 
   <div class="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
-            <div class="w-full space-y-1">
-                <p class="text-md font-regular text-gray-800">First Name</p>
-                <input type="text" placeholder="Enter your first name" class="w-full text-lg text-gray-500 border border-gray-400 rounded-lg px-4 py-2">
-            </div>
+    <div class="w-full space-y-1">
+      <p class="text-md font-regular text-gray-800">First Name</p>
+      <input type="text" placeholder="Enter your first name" class="w-full text-lg text-gray-500 border border-gray-400 rounded-lg px-4 py-2">
+    </div>
             <div class="w-full space-y-1">
                 <p class="text-md font-regular text-gray-800">Last Name</p>
                 <input type="text" placeholder="Enter your last name" class="w-full text-lg text-gray-500 border border-gray-400 rounded-lg px-4 py-2">
@@ -146,6 +146,51 @@
   <!-- Donate Button -->
   <x-button href="#" text="Donate Now" class="w-full " />
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // Frequency buttons
+  const freqButtons = document.querySelectorAll('.bg-neutral-200 > button');
+  freqButtons.forEach(btn => {
+    btn.addEventListener('click', function () {
+      freqButtons.forEach(b => {
+        b.classList.remove('bg-red-800', 'text-white','font-medium');
+        b.classList.add('text-neutral-800','font-regular');
+      });
+      btn.classList.add('bg-red-800', 'text-white','rounded-full','font-medium');
+      btn.classList.remove('text-neutral-800','font-regular');
+    });
+  });
+
+  // Amount buttons
+  const amountButtons = document.querySelectorAll('.grid-cols-2 button, .grid-cols-4 button');
+  const otherInput = document.querySelector('input[placeholder="$ Other"]');
+  amountButtons.forEach(btn => {
+    btn.addEventListener('click', function () {
+      amountButtons.forEach(b => {
+        b.classList.remove('bg-red-100', 'text-red-800', 'border-red-800');
+        b.classList.add('text-gray-500', 'border-gray-400');
+      });
+      btn.classList.add('bg-red-100', 'text-red-800', 'border-red-800');
+      btn.classList.remove('text-gray-500', 'border-gray-400');
+      if (otherInput) {
+        otherInput.classList.remove('bg-red-100', 'text-red-800', 'border-red-800');
+        otherInput.classList.add('text-gray-500', 'border-gray-400');
+      }
+    });
+  });
+  if (otherInput) {
+    otherInput.addEventListener('focus', function () {
+      amountButtons.forEach(b => {
+        b.classList.remove('bg-red-100', 'text-red-800', 'border-red-800');
+        b.classList.add('text-gray-500', 'border-gray-400');
+      });
+      otherInput.classList.add('bg-red-100', 'text-red-800', 'border-red-800');
+      otherInput.classList.remove('text-gray-500', 'border-gray-400');
+    });
+  }
+});
+</script>
 
 </div>
 <x-footer />
