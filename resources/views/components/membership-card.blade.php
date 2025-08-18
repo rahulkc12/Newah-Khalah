@@ -4,6 +4,7 @@
     'includes' => [],
     'benefits' => [],
     'button',
+    'href' => '#',
     'type' => true,
 ])
 
@@ -39,11 +40,11 @@
     </div>
     @if ($type)
         <div class="mt-6">
-            <x-secondarybutton href="#" class="w-full" text="{{ $button }}" />
+            <x-secondarybutton href="{{ $href }}" class="w-full" text="{{ $button }}" />
         </div>
     @else
         <div class="mt-6">
-            <x-button href="#" class="w-full" text="{{ $button }}" />
+            <x-button href="{{ $href }}" class="w-full" text="{{ $button }}" />
         </div>
         
     @endif
