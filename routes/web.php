@@ -17,3 +17,6 @@ Route::view('/news', 'news');
 Route::view('/eventpage','eventpage');
 Route::view('/newspage','newspage'); 
 Route::view('/gallerypage','gallerypage'); 
+Route::view('/login','login');
+Route::view('/signup', 'signup');
+Route::view('/payment', 'payment');

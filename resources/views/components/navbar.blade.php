@@ -65,8 +65,8 @@
             
             <!-- Auth Buttons -->
             <div class="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-2 justify-end">
-                <x-secondarybutton href="#" text="Login" />
-        <x-button href="#" text="Signup" />
+                <x-secondarybutton href="/login" text="Login" />
+        <x-button href="/signup" text="Signup" />
             </div>
 
 

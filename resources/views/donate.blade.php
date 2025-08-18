@@ -144,7 +144,7 @@
   </div>
 
   <!-- Donate Button -->
-  <x-button href="#" text="Donate Now" class="w-full " />
+  <x-button href="/payment" text="Donate Now" class="w-full " />
 </div>
 
 <script>

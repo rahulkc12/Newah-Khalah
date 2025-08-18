@@ -8,8 +8,8 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
       <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
-        <x-secondarybutton href="#" text="Login" />
-        <x-button href="#" text="Signup" />
+        <x-secondarybutton href="/login" text="Login" />
+        <x-button href="/signup" text="Signup" />
       </div>
     </div>
 

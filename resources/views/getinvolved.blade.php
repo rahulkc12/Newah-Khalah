@@ -19,6 +19,7 @@ $cards = [
             'Be part of every celebration',
         ],
         'button' => 'Volunteer',
+        'href'=>'/login',
         'type' => true,
     ],
     [
@@ -35,6 +36,7 @@ $cards = [
             'Show your talents at events',
         ],
         'button' => 'Become a Member',
+        'href'=>'/payment',
         'type' => true,
     ],
     [
@@ -51,6 +53,7 @@ $cards = [
             'Right to organize Newah events',
         ],
         'button' => 'Join us',
+        'href'=>'/payment',
         'type' => False,
     ],
 ];
@@ -64,6 +67,7 @@ $cards = [
             :includes="$card['includes']"
             :benefits="$card['benefits']"
             :button="$card['button']"
+            :href="$card['href']"
             :type="$card['type']"
         />
     @endforeach
