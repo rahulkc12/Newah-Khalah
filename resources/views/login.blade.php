@@ -16,7 +16,7 @@
 
         <!-- Email -->
         <div>
-          <label class="block text-sm font-medium text-gray-700 mb-1">
+          <label class="block text-sm font-regular text-gray-800 mb-1">
             Email <span class="text-red-600">*</span>
           </label>
           <input type="email"
@@ -26,7 +26,7 @@
 
         <!-- Password -->
         <div>
-          <label class="block text-sm font-medium text-gray-700 mb-1">
+          <label class="block text-sm font-regular text-gray-800 mb-1">
             Password <span class="text-red-600">*</span>
           </label>
           <div class="relative">
@@ -41,12 +41,8 @@
             </button>
           </div>
         </div>
-
-        <button
-          type="submit"
-          class="w-full bg-red-800 hover:bg-red-700 text-white py-2 rounded-md font-medium">
-           Login
-        </button>
+        <div class="flex justify-center items-center mb-4"><a href="#" class="text-red-800 text-sm hover:underline">Forgot Password?</a></div>
+        <x-button text="Login" :href="'/profile'" />
      </form>
 
      <!-- Divider -->

@@ -55,7 +55,7 @@ Events</a> /
             {{-- Time & Location --}}
             <div class="gap-8">
             <h4 class="font-semibold text-xl mb-4">Time and Location</h4>
-            <div class="border rounded-xl border-gray-400 p-6 space-y-4">
+            <div class="border rounded-xl border-gray-300 p-6 space-y-4">
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-md">
                     
@@ -146,7 +146,7 @@ Events</a> /
             
             <div class="gap-8">
                 <h4 class="font-semibold text-xl mb-4">Events Schedule</h4>
-                <div class="border border-gray-400 rounded-xl p-6">
+                <div class="border border-gray-300 rounded-xl p-6">
                     <table class="w-full text-md text-gray-700">
                         <tbody class="space-y-2">
                         <tr><td class="py-4 font-semibold">Time</td><td class="font-semibold">Activity</td></tr>
@@ -165,6 +165,8 @@ Events</a> /
 
         {{-- Right Column --}}
         <div class=" lg:col-span-5 space-y-6">
+            <div class="sticky top-36 right-0 space-y-4">
+                {{-- tickets info --}}
             <div class="border rounded-xl border-gray-200 p-6 shadow-md">
                 <h3 class="font-semibold flex justify-center items-center mb-8">Ticket Information</h3>
                 <div class="text-md space-y-2 py-2">
@@ -181,7 +183,7 @@ Events</a> /
                 </div>
                 <x-button href="#" text="Buy Tickets" class=" mt-2 w-full" />
             </div>
-
+            {{-- join us --}}
             <div class="border rounded-xl border-gray-200 p-6 shadow-md">
                 <h3 class="font-semibold flex justify-center items-center mb-4">Join Us</h3>
                 <p class="text-md flex justify-center items-center mb-3">Want to help make this event a success?</p>
@@ -189,6 +191,7 @@ Events</a> /
                     <x-secondarybutton href="/getinvolved" text="Join as Volunteer"  class=" mt-2 w-full"/>
                     <x-button href="/donate" text="Like to be Sponsor?" class=" mt-2 w-full " />
                 </div>
+            </div>
             </div>
         </div>
     </div>
