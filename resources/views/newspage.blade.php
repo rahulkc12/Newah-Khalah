@@ -68,6 +68,7 @@
 
         {{-- Sidebar (Most Read + CTA) --}}
         <div class="lg:col-span-5 space-y-6">
+            <div class="sticky top-36 right-0 space-y-4">
             <div class="border rounded-xl shadow-md border-gray-200 p-2">
                 <h3 class="font-semibold flex justify-center items-center m-4">Most Read</h3>
                 <div>
@@ -99,6 +100,7 @@
                     <x-button href="/donate" text="Like to be Sponsor?" class=" mt-2 w-full " />
                 </div>
             </div>
+        </div>
         </div>
 
     </div>

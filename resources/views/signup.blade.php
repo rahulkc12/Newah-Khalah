@@ -14,14 +14,14 @@
         <form class="space-y-4">
             <!-- Email -->
             <div>
-                <label class="block text-sm font-medium text-gray-700">Email <span class="text-red-600">*</span></label>
+                <label class="block text-sm font-regular text-gray-800">Email <span class="text-red-600">*</span></label>
                 <input type="email" placeholder="joe12@example.com"
                        class="mt-1 w-full rounded-md border border-gray-300 text-gray-500 px-4 py-2 focus:ring-0 focus:border-red-700">
             </div>
 
             <!-- Password -->
             <div>
-                <label class="block text-sm font-medium text-gray-700">Password <span class="text-red-600">*</span></label>
+                <label class="block text-sm font-regular text-gray-800">Password <span class="text-red-600">*</span></label>
                 <div class="relative">
                     <input id="password" type="password" placeholder="Enter your password"
                            class="w-full rounded-md border border-gray-300 text-gray-500 px-4 py-2 pr-10 focus:border-red-700">
@@ -34,7 +34,7 @@
 
             <!-- Confirm Password -->
             <div>
-                <label class="block text-sm font-medium text-gray-700">Confirm Password <span class="text-red-600">*</span></label>
+                <label class="block text-sm font-regular text-gray-800">Confirm Password <span class="text-red-600">*</span></label>
                 <div class="relative">
                     <input id="confirmPassword" type="password" placeholder="Confirm your password"
                            class="w-full rounded-md border border-gray-300 text-gray-500 px-4 py-2 pr-10 focus:border-red-700">
@@ -53,7 +53,7 @@
             </div>
 
             <!-- Signup button -->
-            <x-button text="Signup" />
+            <x-button text="Signup" :href="'/profile'"/>
         </form>
 
         <!-- OR Divider -->

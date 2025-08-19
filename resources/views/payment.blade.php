@@ -39,27 +39,27 @@
         <form class="space-y-5">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                    <label class="block text-sm font-medium mb-1">First Name <span class="text-red-600">*</span></label>
+                    <label class="block text-sm font-regular text-gray-800 mb-1">First Name <span class="text-red-600">*</span></label>
                     <input type="text" class="w-full rounded-md border  border-gray-300 px-4 py-2 text-gray-500" placeholder="Joe"/>
                 </div>
                 <div>
-                    <label class="block text-sm font-medium mb-1">Last Name <span class="text-red-600">*</span></label>
+                    <label class="block text-sm font-regular text-gray-800 mb-1">Last Name <span class="text-red-600">*</span></label>
                     <input type="text" class="w-full rounded-md border  border-gray-300 px-4 py-2 text-gray-500" placeholder="David"/>
                 </div>
             </div>
 
             <div>
-                <label class="block text-sm font-medium mb-1">Card Number <span class="text-red-600">*</span></label>
+                <label class="block text-sm font-regular text-gray-800 mb-1">Card Number <span class="text-red-600">*</span></label>
                 <input type="text" class="w-full rounded-md border px-4 py-2  border-gray-300 text-gray-500" placeholder="XXXXXXXXXXXXXXXX"/>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                    <label class="block text-sm font-medium mb-1">Expiry Date <span class="text-red-600">*</span></label>
+                    <label class="block text-sm font-regular text-gray-800 mb-1">Expiry Date <span class="text-red-600">*</span></label>
                     <input type="text" class="w-full rounded-md border px-4 py-2  border-gray-300 text-gray-500" placeholder="XX/XX"/>
                 </div>
                 <div>
-                    <label class="block text-sm font-medium mb-1">CVV <span class="text-red-600">*</span></label>
+                    <label class="block text-sm font-regular text-gray-800 mb-1">CVV <span class="text-red-600">*</span></label>
                     <input type="text" class="w-full rounded-md border px-4 py-2  border-gray-300 text-gray-500" placeholder="XXX"/>
                 </div>
             </div>

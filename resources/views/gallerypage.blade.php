@@ -44,7 +44,8 @@
         </div>
 
         {{-- Right Column --}}
-        <div class="lg:col-span-5 space-y-4 lg:space-y-6 mt-6 lg:mt-0">
+        <div class="lg:col-span-5 space-y-4 lg:space-y-6 mt-6 lg:mt-0 ">
+            <div class="sticky top-36 right-0 space-y-4">
             {{-- Event Details --}}
             <div class="border rounded-xl border-gray-200 shadow-md p-4 lg:p-6 space-y-4">
                 <h4 class="font-semibold text-lg lg:text-xl flex justify-center items-center">Event Details</h4>
@@ -144,6 +145,7 @@
                     <x-secondarybutton href="/getinvolved" text="Join as Volunteer" class="w-full text-sm lg:text-base"/>
                     <x-button href="/donate" text="Like to be Sponsor?" class="w-full text-sm lg:text-base" />
                 </div>
+            </div>
             </div>
         </div>
     </div>

@@ -20,3 +20,4 @@ Route::view('/gallerypage','gallerypage');
 Route::view('/login','login');
 Route::view('/signup', 'signup');
 Route::view('/payment', 'payment');
+Route::view('/profile', 'profile');
